@@ -1,0 +1,2 @@
+CPU interval candidates=65536 matches=65535 seconds=0.0446129 candidates/s=1.46899e+06
+CPU fallback: NVIDIA driver not installed; GPU benchmark not run

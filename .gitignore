@@ -1,0 +1,7 @@
+/build*/
+/dist/
+*.state
+*.state.tmp
+results.csv
+results.txt
+__pycache__/
