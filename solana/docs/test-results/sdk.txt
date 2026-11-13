@@ -1,0 +1,1 @@
+PASS solders 0.29.0: 3 keypair JSON imports, seed/public roundtrips and signatures; 98 public-key Base58 cases

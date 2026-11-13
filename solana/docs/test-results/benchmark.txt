@@ -1,0 +1,2 @@
+CPU single-thread candidates_per_round=2048 rounds=7 matches_per_round=130 interval_seconds_total=0.522672 interval_keys/s=27428.3 base58_seconds_total=0.506948 base58_keys/s=28279.1 warmup_matches=16
+GPU benchmark SKIPPED: CPU fallback: NVIDIA driver not installed

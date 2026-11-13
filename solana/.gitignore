@@ -1,0 +1,5 @@
+/build*/
+*.state
+*.state.tmp
+/solana-output/
+__pycache__/

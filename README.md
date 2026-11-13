@@ -1,5 +1,7 @@
 # VanityWIF — CUDA WIF mintakereső
 
+**Solana prefix generátor:** [SolanaVanity külön projekt és Windows EXE](solana/README.md).
+
 **Letöltés:** [Windows x64 ZIP (CUDA + CPU)](downloads/VanityWIF-Windows-x64.zip) ·
 [VanityWIF.exe](downloads/VanityWIF.exe) · [Teszteredmények](docs/VALIDATION.md)
 

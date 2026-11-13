@@ -1,0 +1,11 @@
+ptxas info    : 0 bytes gmem, 32440 bytes cmem[3]
+ptxas info    : Compiling entry function 'derive_solana' for 'sm_86'
+ptxas info    : Function properties for derive_solana
+ptxas info    : Used 146 registers, used 0 barriers, 560 bytes cumulative stack size, 768 bytes cmem[0], 16 bytes cmem[2]
+ptxas info    : Compile time = 4205.676 ms
+ptxas info    : Function properties for _ZN13solvan_device13ge_p3_tobytesEPhPKNS_5ge_p3E
+ptxas info    : Compiling entry function 'scan_solana' for 'sm_86'
+ptxas info    : Function properties for scan_solana
+ptxas info    : Used 142 registers, used 0 barriers, 720 bytes cumulative stack size, 776 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compile time = 4993.711 ms
+ptxas info    : Function properties for _ZN13solvan_device13ge_p3_tobytesEPhPKNS_5ge_p3E

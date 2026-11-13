@@ -1,0 +1,9 @@
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+PASS GUI: start, prefix correctness, Solana JSON, DPAPI state, resume, close/reopen, STOP checkpoint

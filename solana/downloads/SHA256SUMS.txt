@@ -1,0 +1,2 @@
+a0822189bf45d3c4a04367ff86d44a50054aa2866ec3f9fd9cd0a7ff0cb0e4aa  SolanaVanity.exe
+d0205e8a60fd45f22e45f620e40768af7a624b2b63e656ae82699f9efc240e99  SolanaVanity-Windows-x64.zip

@@ -22,3 +22,29 @@ jobs:
             build/Release/VanityWIF.exe
             build/Release/vanity-cli.exe
             build/Release/vanity-tests.exe
+
+  solana:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Solana CPU build
+        run: cmake -S solana -B solana/build-ci -DSOLVAN_CUDA=OFF -DCMAKE_BUILD_TYPE=Release
+      - name: Build Solana
+        run: cmake --build solana/build-ci --config Release --parallel 4
+      - name: Test Solana
+        run: ctest --test-dir solana/build-ci -C Release --output-on-failure
+      - name: Windows Solana GUI smoke test
+        if: runner.os == 'Windows'
+        run: .\solana\build-ci\Release\solana-gui-smoke.exe
+      - uses: actions/upload-artifact@v4
+        if: runner.os == 'Windows'
+        with:
+          name: Solana-Windows-x64-CPU-only
+          path: |
+            solana/build-ci/Release/SolanaVanity.exe
+            solana/build-ci/Release/solana-cli.exe
+            solana/build-ci/Release/solana-tests.exe
+            solana/build-ci/Release/solana-gui-smoke.exe

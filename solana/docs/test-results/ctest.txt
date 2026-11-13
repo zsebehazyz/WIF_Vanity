@@ -1,0 +1,7 @@
+Test project /workspace/WIF_Vanity/solana/build-cuda
+    Start 1: solana-core
+1/1 Test #1: solana-core ......................   Passed    0.12 sec
+
+100% tests passed out of 1
+
+Total Test time (real) =   0.12 sec
